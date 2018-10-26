@@ -4,4 +4,8 @@ import UIKit
 var name: String = "Thanh Nguyen"
 
 // Print the name to terminal
-print(name)
+print("Name: \(name)")
+
+// Declare a varibale has type integer
+var age: Int = 25
+print("Age: \(age)")
