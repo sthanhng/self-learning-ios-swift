@@ -12,11 +12,11 @@ All scripts and projects should be compatible with Xcode 10 and iOS 11.
 ## List of tutorials
 
 + How to install Xcode and create a playground
-+ Variables and Constants
++ [Variables and Constants](https://github.com/sthanhng/self-learning-ios-swift/blob/master/hacking-swift/variables_constants.playground/Contents.swift)
 + Types of data
-+ Operators
-+ String interpolation
-+ Arrays
-+ Dictionaries
++ [Operators](https://github.com/sthanhng/self-learning-ios-swift/blob/master/hacking-swift/Operators.playground/Contents.swift)
++ [String interpolation](https://github.com/sthanhng/self-learning-ios-swift/blob/master/hacking-swift/StringInterpolation.playground/Contents.swift)
++ [Arrays](https://github.com/sthanhng/self-learning-ios-swift/blob/master/hacking-swift/Arrays.playground/Contents.swift)
++ [Dictionaries](https://github.com/sthanhng/self-learning-ios-swift/blob/master/hacking-swift/Dictonaries.playground/Contents.swift)
 
 ## References
