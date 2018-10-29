@@ -63,3 +63,27 @@ var taylor2 = CountrySinger(name: "Taylor", age: 25)
 taylor2.sing()
 taylor2.age
 
+/*
+ * Property observers
+ * There are two kinds of property observer: willSet and didSet
+ */
+
+// Let's attach two property observers to the clothes property of a Person object
+struct PersonPro {
+    var clothes: String {
+        willSet {
+            updateUI(msg: "I'm changing from \(clothes) to \(newValue)")
+        }
+        
+        didSet {
+            updateUI(msg: "I just changed from \(oldValue) to \(clothes)")
+        }
+    }
+}
+
+func updateUI(msg: String) {
+    print(msg)
+}
+
+var taylor3 = PersonPro(clothes: "T-shirts")
+taylor3.clothes = "short skirts"
